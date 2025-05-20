@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        html,body{
+            padding: 0;
+            margin: 0;
+        }
+        nav{
+            position: sticky;
+            top: 0;
+            overflow: hidden;
+           display:flex;
+           align-items: center;
+           justify-content: space-between;
+           padding-left: 70px;
+           padding-right: 70px;
+           padding-top: 10px;
+           padding-bottom: 10px;
+           background-color: #060645;
+           color: white;
+        }
+        .right{
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            justify-content: space-between;
+        }
+        nav a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: blue;
+        }
+        .flex{
+            display: flex;
+        }
+        .header{
+           padding-left: 70px;  
+           padding-right: 70px;
+           padding-top: 80px;
+           padding-bottom: 80px;
+           
+           color: white;
+           align-items: center;
+           justify-content: start;
+           gap: 20px;
+
+        }
+        h1,h2,h3,h4,h5{
+            margin: 0;
+        }
+        .logo { 
+            display: inline-block; 
+            position: relative; 
+            width: 300px; 
+            height: 300px; 
+            overflow: hidden; 
+            border-radius: 50%; } 
+        .logo img { 
+            width: 100%;
+            height: auto;
+        }
+        #home{
+            height: 95vh;
+            background-color: #1e1e3d;
+            padding-top: 40px;
+        }
+        #about{
+            height: 100vh;
+            background-color: #1e1e3d ;
+            padding-top: 40px;
+            color: white;
+            text-align: center;
+        }
+        #Skill{
+            height: 100vh;
+            background-color: #1e1e3d;
+            padding-top: 40px;
+            color: white;
+            text-align: center;
+           
+            
+        }
+        #contact{
+            height: 100vh;
+            background-color: #1e1e3d ;
+            padding-top: 40px;
+            color: white; 
+            text-align: center;
+            
+        }
+        #contact a{
+            text-decoration: none;
+            
+        }
+       
+        
+       
+        
+    </style>
+    
+</head>
+<body>
+     <nav class="p">
+        <div class="left">
+            portfolio
+        </div>
+        
+        <div class="right">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#Skill">Skill</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+        
+    </nav> 
+    <section id="home">
+        <div class="header flex">
+            <div style="width: 100%; padding-left: 200px; display: flex; gap: 10px; flex-direction: column;">
+
+
+                <h3>Hello,It's Me</h3>
+                <h2><strong>Anamika Khaskel</strong></h2>
+                <h4>And I'm a student of CSE</h4>
+                <p style="font-size: 14px; color:white; text-align: justify"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati blanditiis corrupti ipsam quaerat soluta omnis iste, esse ipsa porro ullam consectetur nemo dolor? Neque incidunt corporis perspiciatis tenetur, itaque exercitationem?</p>
+          
+            
+            </div>
+            <div style="width: 100%;">
+
+                <div class="logo">
+                    <img src="photo2-12211027.jpg" alt="">
+                </div>
+            </div>
+            
+
+        </div>
+        
+         
+    </section>
+   
+    <section id="about">
+        <div>
+            <caption> <b>About Me</b></caption>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis qui modi fugiat veritatis impedit, quibusdam iure tenetur vitae explicabo, commodi, eligendi animi illo officia labore quo ipsa perferendis accusamus reiciendis dolor aut? Magnam, quaerat reiciendis, expedita deserunt debitis eos aperiam minima optio eum a sed cupiditate. Ex obcaecati deleniti nostrum nulla consequuntur doloremque esse blanditiis quos explicabo reiciendis quis, illum eius totam molestias iste eaque quasi vel rem. Voluptas ex distinctio assumenda velit ducimus nesciunt obcaecati dolorem deleniti molestias architecto vero, consequuntur soluta porro quos neque sed officia illo amet exercitationem quasi culpa in commodi ratione sunt. Molestias, assumenda.
+            </p>
+           </div>
+           <div>
+
+    </section>
+    <Section id="Skill"> 
+        <div>
+        <caption><b>My Skill</b></caption><br>
+        <div style="display: flex; gap: 4px;align-items: center;color: green;" >
+            <i class="fa-brands fa-html5"></i>
+              <p>HTML-80%</p>
+              
+              
+
+        </div>
+        <div style="display: flex; gap: 4px; align-items: center; color: aquamarine;">
+            <i class="fa-brands fa-css3-alt"></i>
+            <p>CSS-50%</p>
+        </div>
+        <div style="display: flex;gap: 4px;align-items: center;color: blue;">
+           <i class="fa-brands fa-python"></i>
+            <p>Python-30%</p>
+        </div>
+
+    </div>
+        
+    </Section>
+    
+    
+    
+   
+        <Section id="contact" >
+            <div>
+                <caption><b>Contact</b></caption>
+            <a href="mailto:anamika@gmai.com" style="display: flex; gap: 5px; align-items: center; color: rgb(183, 113, 81);">
+                <i  class="fa-solid fa-envelope" ></i>
+                <p>anamika@gmai.com</p>
+            </a>
+             <a href="#" style="display: flex; gap: 5px; align-items: center; color: rgb(183, 113, 81);">
+                <i  class="fa-solid fa-phone" ></i>
+                <p>0176666666</p>
+                 </a>
+            </div>
+            
+        </Section>
+        
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
